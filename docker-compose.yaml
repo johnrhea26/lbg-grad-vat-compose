@@ -9,7 +9,7 @@ services:
     front-a:
         image: rheajohn26/lbg-grad-compose-front-a
         build: 
-             context:./frontend-1
+             context: ./frontend-1
         ports:
             -   target: 80
                 published: 80
